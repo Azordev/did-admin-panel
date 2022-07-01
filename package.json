@@ -77,7 +77,7 @@
     "@types/prop-types": "15.7.5",
     "aws-sdk": "2.1160.0",
     "formidable": "2.0.1",
-    "graphql": "16.3.0",
+    "graphql": "16.5.0",
     "magic-sdk": "8.1.1",
     "next": "12.1.5",
     "next-auth": "4.3.4",
