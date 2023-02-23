@@ -48,7 +48,7 @@ const EditProviderForm: FC<MutableProviderFormProps> = ({ onSubmit, loading, ori
   return (
     <ClientOnly>
       <form onSubmit={submitHandler} className={styles.container} noValidate>
-        <input defaultValue={originalProvider?.user_info?.id || ''} {...register('userId')} />
+        <input type="hidden" defaultValue={originalProvider?.user_info?.id || ''} {...register('userId')} />
         <div className={styles['input-container']}>
           <CustomInput
             id="name"
